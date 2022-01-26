@@ -1,0 +1,365 @@
+.mainpanel{
+      height:850px;
+      width:100%;
+      background-image:url('images/5.jpg');
+      background-repeat:no-repeat;
+      background-size: cover;
+      position:absolute;
+	  margin-top:0px;
+      overflow: hidden;
+
+}
+.navbar ul {
+	padding-top:5px;
+}
+.navbar li {
+  display: inline;
+  margin :25px;
+}
+a.navigation:link, a.navigation:visited {
+    font-family:'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-color: white;
+	color: #e2e2e2;
+	padding:7px;	
+	padding-bottom:0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    height: 112px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+ a.navigation:hover, .navigation:active {
+    
+   	border-bottom: 3px solid #FFD700;
+	
+}
+
+
+.active{
+	
+
+   	border-bottom: 3px solid #FFD700;	
+}
+.mypic{
+	position:absolute;
+	width:200px;
+	height:190px;
+
+	background-repeat:no-repeat;
+    background-size: cover;
+	margin-left:550px;
+	margin-top:90px;
+	border-radius:100%;
+}
+.myname{
+	position:absolute;
+	padding-top:30px;
+	padding-left:580px;
+	padding-right:100px;
+	font-size:50px;
+	color:white;
+}
+.mybalance{
+	position:aboslute;
+	margin-left:140px;
+	margin-top:-75px;
+	
+}
+.balance{
+	position:aboslute;
+	margin-left:150px;
+	margin-top:100px
+}
+.balance h1{
+	font-size:30px;
+	color:white;
+}
+.mybalance h1{
+	font-size:100px;
+	color:white;
+}
+
+
+.panel2{
+	position:absolute;
+	margin-top:750px;
+	height:550px;
+	width:100%;
+	background-color:#EEE0E5;
+	
+}
+.panel2 h1{
+	font-size:70px;
+	
+	color:#EEC900;
+}
+.panel2 h2{
+	font-size:40px;
+	margin-left:10px;
+}
+.wins{
+	position:absolute;
+	margin-left:140px;
+	font-size:45px;
+	color:green;
+}	
+
+.draws{
+	position:absolute;
+	margin-left:580px;
+    font-size:45px;
+	color:#33A1C9;
+	
+}
+.losses{
+	position:absolute;
+	margin-left:970px;
+	font-size:45px;
+	color:red;
+}
+.wins-numbers{
+	margin-top:70px;
+	position:absolute;
+	margin-left:195px;
+	font-size:45px;
+}	
+
+.draws-numbers{
+	margin-top:70px;
+	position:absolute;
+	margin-left:670px;
+	font-size:45px;
+	
+}
+.losses-numbers{
+	margin-top:70px;
+	position:absolute;
+	margin-left:1070px;
+	font-size:45px;
+}
+.btn-2{
+	position:absolute;
+	height:50px;
+	width:100px;
+	background-color:red;
+	margin-left:1150px;
+	margin-top:-370px;
+	border-radius:6px;
+	
+	
+}
+.btn-3{
+	position:absolute;
+	height:50px;
+	width:100px;
+	background-color:red;
+	margin-left:630px;
+	margin-bottom:100px;
+	margin-top:-370px;
+	border-radius:6px;
+}
+.btn-4{
+	position:absolute;
+	margin-bottom:100px;
+	height:50px;
+	width:100px;
+	background-color:red;
+	margin-left:100px;
+	margin-top:-370px;
+	border-radius:6px;
+}
+.buttons{
+	margin-top:200px;
+	position:absolute;
+	height:100px;
+	width:100%;
+	
+}
+.result{
+	position:absolute;
+	width:100%;
+	height:550px;
+	top:550px;
+	margin-right:900px;
+
+	
+}
+.userpic{
+	
+	width:250px;
+	height:250px;
+	margin-left:200px;
+	
+}
+.username{
+	position:absolute;
+    margin-left:-350px;
+	padding-bottom:200px;
+	font-size:30px;
+	margin-top:-120px;
+}
+.userpic img{
+	margin-top:50px;
+	width:250px;
+	height:250px;
+	margin-left:-100px;
+	border-radius:100%;
+	margin-bottom:30px;
+}
+.amount{
+
+	position:absolute;
+	margin-left:650px;
+}
+.price{
+	position:absolute;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-top:-140px;
+	border-radius:5px;
+	width:50px;
+	height:35px;
+}
+
+.review{
+	position:absolute;
+	margin-left:380px;
+	margin-top:-140px;
+	
+}
+#send{
+	position:absolute;
+	margin-left:580px;
+	margin-top:-130px;
+	background:transparent;
+	border-radius:5px;
+}
+
+.games{
+	
+	position:absolute;
+	margin-left:250px;
+	margin-top:-70px;
+	margin-right:50px;
+	width:200px;
+	height:35px;
+	background:grey;
+	border-radius:5px;
+	margin-top:-80px;
+
+}
+.consoles{
+	position:absolute;
+	margin-top:-70px;
+	margin-left:650px;
+	width:200px;
+	height:35px;
+	background:red;
+	margin-top:-80px;
+	border-radius:5px;
+
+}
+.sidebars{
+	position:absolute;
+	height:900px;
+	width:325px;
+	background-color:red;
+	margin-top:550px;
+	margin-left:900px;
+	
+}
+.nav{
+	margin-top:160px;
+	padding:100px;
+	
+}
+.notification{
+	position :absolute;
+	background-color:red;
+	height:350px;
+	width:25%;
+	margin-top:85px;
+	margin-left:1010px;
+		
+	
+	
+	
+}
+.sub1{
+	position:absolute;
+	margin-top:-80px;
+	margin-left:1000px;
+	height:40px;
+	width:100px;
+	background-color:green;
+	border-radius:6px;
+	
+}
+.new{
+position:aboslute;
+background-color:red;
+height:600px;
+	
+}
+.price{
+	top:8px;
+	margin-left:-135px;
+}
+.userpic2{
+	position:absolute;
+	width:300px;
+	height:300px;
+	margin-left:475px;
+	margin-top:25px;
+
+	
+}
+.userpic2 img{
+	position:absolute;
+	margin-top:115px;
+	width:380px;
+	height:380px;
+	border-radius:100%;
+	
+}
+.userpic3{
+	
+	width:300px;
+	height:300px;
+	margin-left:475px;
+	margin-top:25px;
+	
+
+	
+}
+.userpic3 img{
+    position:absolute;
+	margin-top:115px;
+	width:380px;
+	height:380px;
+	border-radius:100%;
+	
+}
+.accept{
+	
+	margin-left:75px;
+	margin-right:50px
+	
+}
+.reject{
+	
+	
+}
+.notice{
+	position:absolute;
+	background-color:grey;
+	margin-top:245px;
+	margin-left:960px;
+	height:350px;
+	width:50px;
+	
+}

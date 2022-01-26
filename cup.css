@@ -1,0 +1,93 @@
+.defaultpic{
+	position:absolute;
+	width:300px;
+	height:300px;
+	margin-left:475px;
+	margin-top:25px;
+
+	
+}
+.defaultpic img{
+	position:absolute;
+	margin-top:10px;
+	width:380px;
+	height:380px;
+	border-radius:100%;
+	
+}
+.custompic{
+	
+	width:300px;
+	height:300px;
+	margin-left:475px;
+	margin-top:25px;
+	
+
+	
+}
+.custompic img{
+    position:absolute;
+	margin-top:50px;
+	width:380px;
+	height:380px;
+	border-radius:100%;
+	
+}
+.prize p {
+	position:absolute;
+	margin-left:55px;
+	margin-top:5px;
+	font-size :100px;
+		
+	
+
+}
+.prize h2 {
+	position:absolute;
+	margin-left:55px;
+	margin-top:-55px;
+	font-size :50px;
+		
+	
+
+}
+.users_name p {
+	margin-top:5px;
+	margin-left:55px;
+}
+.stats p {
+	margin-top:25px;
+}
+.stats h2{
+	position:absolute;
+	margin-left:120px;
+	margin-top:-55px;
+	font-size :50px;
+}
+.reg_free{
+	position:absolute;
+	top:600px;
+	height:50px;
+	margin-top:200px;
+    width:30%;
+	margin-left:840px;
+    background-color:blue;	
+}
+.cup_type{
+	position:absolute;
+	top:400px;
+	height:50px;
+	margin-top:200px;
+    width:30%;
+	margin-left:840px;
+    background-color:blue;	
+}
+.playercount{
+	position:absolute;
+	top:300px;
+	height:50px;
+	margin-top:200px;
+    width:30%;
+	margin-left:840px;
+    background-color:blue;	
+}
